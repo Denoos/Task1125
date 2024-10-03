@@ -57,7 +57,7 @@ namespace Task1125.Program
         //Все взаимодействия производите с этим свойством(вам Дядя Пушкин потом расскажет что это)
         //  пока что считайте это супер-переменной, которую можно вызвать в любом месте класса)
         // спойлер: про классы вам потом тоже расскажут
-        public List<Day> Days { get; set; }
+        public static List<Day> Days { get; set; }
 
         public static void Main(string[] args)
         {
